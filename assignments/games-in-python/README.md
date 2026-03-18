@@ -1,19 +1,45 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Games in Python (Hangman)
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a text-based Hangman game in Python to practice loops, conditionals, string handling, and user input.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Set Up the Game State
 
-## ✅ Must Have's
+#### Description
+Use the starter code to prepare all variables needed to run Hangman.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Randomly select one word from the provided `words` list.
+- Create variables to track guessed letters, incorrect guesses, and the maximum number of allowed incorrect guesses.
+- Store the selected word in a clearly named variable (for example, `secret_word`).
+
+### 🛠️ Build the Main Game Loop
+
+#### Description
+Implement the loop where the player keeps guessing letters until they win or run out of attempts.
+
+#### Requirements
+Completed program should:
+
+- Display the current progress of the word using underscores for unguessed letters.
+- Ask the player for a letter guess on each turn.
+- Update guessed letters and incorrect guess count based on whether the guess is correct.
+- Continue running until all letters are guessed or the incorrect guess limit is reached.
+
+### 🛠️ Show the Final Result
+
+#### Description
+End the game with a clear message so the player knows whether they won or lost.
+
+#### Requirements
+Completed program should:
+
+- Print a congratulatory message if the player guesses the full word.
+- Print a losing message if the player runs out of attempts.
+- Reveal the secret word at the end of the game.
