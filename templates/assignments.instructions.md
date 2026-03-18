@@ -1,27 +1,34 @@
----
-applyTo: "assignments/**/*.md"
----
+# 📘 Assignment: Python Basics
 
-# Assignment Markdown Structure Guidelines
+## 🎯 Objective
 
-All assignment markdown files should follow these guidelines:
+In this assignment, students will learn how to use variables, basic input/output, and simple calculations in Python.
 
-## 1. Template Usage
+## 📝 Tasks
 
-- Assignment markdown files must follow the structure in [`templates/assignment-template.md`](../../templates/assignment-template.md).
-- The assignment must be created as a `README.md` file
-- Do not remove or skip required sections from the template.
+### 🛠️ Task 1: Create a Simple Calculator
 
-## 2. Section Guidance
+#### Description
+Write a Python program that asks the user for two numbers and prints their sum.
 
-The section headers should reflect the structure in the template, including the exact icon usage.
+#### Requirements
+Completed program should:
 
-- **Title**: Replace `[Assignment Title]` with a short, descriptive name (e.g., `Python Basics`, `Loops and Conditionals`, `Functions and Modules`).
-- **Objective**: Write 1-2 sentences summarizing what the student will learn or accomplish. Focus on the main skills or concepts.
-- **Tasks**: For each task:
-   - Use a specific, action-oriented task name
-   - In the Description, clearly state what the student must do.
-   - In Requirements, use bullet points to list the expected outcomes or features. Be specific and measurable
-   - Provide example input/output in code blocks if helpful.
+- Ask the user to input two numbers
+- Store the numbers in variables
+- Calculate the sum of the two numbers
+- Display the result clearly to the user
 
-Do not include extra sections unless explicitly specified.
+
+### 🛠️ Task 2: User Greeting Program
+
+#### Description
+Write a program that asks the user for their name and age, then prints a greeting message.
+
+#### Requirements
+Completed program should:
+
+- Ask the user for their name
+- Ask the user for their age
+- Display a message that includes both name and age
+- Format the output in a readable sentence
